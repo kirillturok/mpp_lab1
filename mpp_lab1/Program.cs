@@ -3,17 +3,7 @@
 namespace mpp_lab1
 {
 
-    public struct TraceResult
-    {
-        string methodName;
-        string className;
-        long time;
-
-        /*public long GetTraceResult()
-        {
-            return time;
-        }*/
-    }
+    
 
     
 
