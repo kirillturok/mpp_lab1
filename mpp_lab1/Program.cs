@@ -3,16 +3,25 @@
 namespace mpp_lab1
 {
 
-    struct TraceResult
+    public struct TraceResult
     {
         string methodName;
         string className;
         long time;
 
-        public long GetTraceResult()
+        /*public long GetTraceResult()
         {
             return time;
-        }
+        }*/
+    }
+
+    public interface ITracer
+    {
+        void StartTrace();
+
+        void StopTrace();
+
+        TraceResult GetTraceResult();
     }
 
     class Program
