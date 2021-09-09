@@ -8,6 +8,11 @@ namespace mpp_lab1
         string methodName;
         string className;
         long time;
+
+        public long GetTraceResult()
+        {
+            return time;
+        }
     }
 
     class Program
