@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mpp_lab1", "mpp_lab1\mpp_la
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{C23C54B2-B3A2-43B4-B08A-D3BB51E78807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainPart", "MainPart\MainPart.csproj", "{63D75292-BD56-490A-A0DC-25AD2EA59163}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TracerPart", "MainPart\TracerPart.csproj", "{63D75292-BD56-490A-A0DC-25AD2EA59163}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
