@@ -7,7 +7,7 @@ using System.Runtime.Serialization;
 
 namespace TracerPart
 {
-    class ThreadTrace
+    public class ThreadTrace
     {
         [DataMember] [JsonProperty, XmlAttribute("id")] public int ThreadId { get; set; }
         [DataMember] [JsonProperty, XmlAttribute("time")] public long ThreadTime { get; set; }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TracerPart
 {
-    class TraceResult
+    public class TraceResult
     {
         private ConcurrentDictionary<int, ThreadTrace> ThreadTraces { get; }
 

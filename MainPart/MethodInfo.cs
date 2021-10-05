@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 
 namespace TracerPart
 {
-    class MethodInfo
+    public class MethodInfo
     {
         [JsonProperty, XmlAttribute("time")] public double Time { get; set; }
         [JsonProperty, XmlAttribute("name")] public string MethodName { get; set; }
