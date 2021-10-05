@@ -19,8 +19,6 @@ namespace TracerPart
             ThreadId = threadId;
         }
 
-        public ThreadTrace() { }
-
         public void AddMethod(string methodName, string className, string methodPath)
         {
             MethodsInfo.Add(new MethodInfo(methodName, className, methodPath));

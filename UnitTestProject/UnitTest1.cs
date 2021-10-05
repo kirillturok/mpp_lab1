@@ -1,14 +1,14 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Threading;
+using TracerPart;
 
-namespace UnitTestProject1
+namespace UnitTestProject
 {
     [TestClass]
-    publBic class UnitTest1
+    public class UnitTest1
     {
-
-
-        private readonly ITracer _tracer = new Tracer();
+        private readonly ITracer _tracer = new Library.Implementation.Tracer();
 
         [Test]
         public void WhetherInnerMethodsAreAddedCorrectly()
@@ -48,6 +48,5 @@ namespace UnitTestProject1
             _tracer.StartTrace();
             _tracer.StopTrace();
         }
-
     }
 }
