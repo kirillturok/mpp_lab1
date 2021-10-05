@@ -7,7 +7,8 @@ namespace TracerPart.Serialization
 {
     public class JsonSerializer : ISerializer
     {
-        string ISerializer.Serialize(TraceResult traceResult)
+
+        public string Serialize(TraceResult traceResult)
         {
             var arrays = new Dictionary<string, ICollection<ThreadTrace>>
             {
@@ -16,5 +17,7 @@ namespace TracerPart.Serialization
 
             return JsonConvert.SerializeObject(arrays, Formatting.Indented);
         }
+
+        
     }
 }

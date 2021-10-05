@@ -13,4 +13,8 @@
     <ProjectReference Include="..\MainPart\TracerPart.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Result\" />
+  </ItemGroup>
+
 </Project>

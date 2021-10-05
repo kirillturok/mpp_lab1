@@ -8,8 +8,11 @@ using System.Threading;
 
 namespace TracerPart
 {
-    class Tracer : ITracer
+    public class Tracer : ITracer
     {
+
+        static void Main(string[] args) { }
+
         private readonly TraceResult _traceResult;
 
         public Tracer()

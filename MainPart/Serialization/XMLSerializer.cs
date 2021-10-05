@@ -11,7 +11,12 @@ namespace TracerPart.Serialization
 {
     public class XMLSerializer : ISerializer
     {
-        string ISerializer.Serialize(TraceResult traceResult)
+        
+
+
+
+
+        public string Serialize(TraceResult traceResult)
         {
             var data = traceResult.GetThreadTraces().Values.ToArray();
             var xmlSerializer = new XmlSerializer(data.GetType());
