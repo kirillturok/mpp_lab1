@@ -2,7 +2,6 @@
 using System.Xml.Serialization;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Runtime.Serialization;
 
 namespace TracerPart
@@ -12,6 +11,8 @@ namespace TracerPart
         [DataMember] [JsonProperty, XmlAttribute("id")] public int ThreadId { get; set; }
         [DataMember] [JsonProperty, XmlAttribute("time")] public long ThreadTime { get; set; }
         [DataMember] [JsonProperty, XmlElement("methods")] public List<MethodInfo> MethodsInfo { get; set; }
+
+        public ThreadTrace() { }
 
         public ThreadTrace(int threadId)
         {

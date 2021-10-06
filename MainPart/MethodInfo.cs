@@ -17,6 +17,8 @@ namespace TracerPart
         [JsonProperty, XmlElement("methods")] public List<MethodInfo> InnerMethods { get; set; }
         [JsonIgnore] private readonly string _methodPath;
 
+        public MethodInfo() { }
+
         public MethodInfo(string methodName, string className, string methodPath)
         {
             ClassName = className;
