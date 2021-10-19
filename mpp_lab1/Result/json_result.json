@@ -2,15 +2,15 @@
   "threads": [
     {
       "ThreadId": 1,
-      "ThreadTime": 213,
+      "ThreadTime": 211,
       "MethodsInfo": [
         {
-          "Time": 107.0,
+          "Time": 106.0,
           "MethodName": "MyMethod",
           "ClassName": "Foo",
           "InnerMethods": [
             {
-              "Time": 106.0,
+              "Time": 105.0,
               "MethodName": "InnerMethod",
               "ClassName": "Bar",
               "InnerMethods": null
@@ -21,10 +21,10 @@
     },
     {
       "ThreadId": 4,
-      "ThreadTime": 104,
+      "ThreadTime": 103,
       "MethodsInfo": [
         {
-          "Time": 104.0,
+          "Time": 103.0,
           "MethodName": "Method",
           "ClassName": "Program",
           "InnerMethods": null

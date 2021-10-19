@@ -10,7 +10,7 @@ namespace TestProject1
             private readonly ITracer _tracer = new Tracer();
 
             [Test]
-            public void WhetherInnerMethodsAreAddedCorrectly()
+            public void InnerMethods()
             {
                 _tracer.StartTrace();
                 Method1();

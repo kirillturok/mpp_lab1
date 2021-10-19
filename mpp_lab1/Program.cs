@@ -47,7 +47,6 @@ namespace mpp_lab1
         {
             var projectDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
             var folderPath = Path.Combine(projectDir, "Result");
-
             return folderPath;
         }
     }
